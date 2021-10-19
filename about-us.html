@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoxton media</title>
+    <title>About us</title>
     <style>
         *{
             margin: 0px;
@@ -29,7 +29,7 @@
             font-size: 20px;
             margin-top: 20px;
         }
-        h1{
+        h1,h2{
             color: royalblue;
             font-weight: 900;
             margin-top: 30px;
@@ -72,10 +72,38 @@
             transition: 0.3s;
             width: 20%;
         }
-
-       
-
-        .container {
+        #container-features{
+            box-shadow: 0 15px 30px 1px grey;
+            text-align: center;
+            border: 5px;
+            display: inline-block;
+            height: 350px;
+            width: 700px;
+        }
+        .company-details {
+            position: relative;
+            text-align: left;
+            padding: 30px;
+            float: left;
+            width: 40%;
+        }
+        #container-features .company-details  p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            font-size: 18px;
+        }
+        .company-image {
+               
+            height: 100%;
+            float: right;
+            width: 45%;
+            display: inline;
+            }
+        .company-image img {
+            width: 100%;
+            height: 100%;
+        }   
+        .container-employees {
             padding: 2px 16px;
         }
         nav li ,#website-name{
@@ -105,7 +133,7 @@
         <section class="employees">
         <div class="card">
             <img src="https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png" alt="Avatar1" style="width:100%">
-            <div class="container">
+            <div class="container-employees">
               <h4><b>Jim Doe</b></h4>
               <p>Architect & Engineer</p>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore praesentium a perferendis nemo! Libero facere eum magnam temporibus tempora qui, corporis, corrupti assumenda pariatur rerum, placeat et nihil expedita deleniti.</p>
@@ -113,28 +141,55 @@
           </div>
           <div class="card">
             <img src="https://cdn-icons-png.flaticon.com/512/147/147140.png" alt="Avatar2" style="width:100%">
-            <div class="container">
+            <div class="container-employees">
               <h4><b>Jack Doe</b></h4>
               <p>CEO</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus fuga totam, impedit blanditiis eligendi culpa ullam nostrum eum dolor cupiditate unde necessitatibus deserunt pariatur corrupti corporis distinctio? Cum, non.</p>
             </div>
           </div>
           <div class="card">
-            <img src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="Avatar2" style="width:100%">
-            <div class="container">
+            <img src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="Avatar3" style="width:100%">
+            <div class="container-employees">
               <h4><b>Sam Doe</b></h4>
               <p>CEO 2</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur delectus officia nisi magnam doloribus nam optio et, quis voluptas unde voluptatum omnis, suscipit ipsum reiciendis obcaecati hic architecto odio!</p>
             </div>
           </div>
           <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/146/146009.png" alt="Avatar2" style="width:100%">
-            <div class="container">
+            <img src="https://cdn-icons-png.flaticon.com/512/146/146009.png" alt="Avatar4" style="width:100%">
+            <div class="container-employees">
               <h4><b>Bill Doe</b></h4>
               <p>Worker idk</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque perferendis nisi quam, alias eos explicabo est minima quis deleniti quo neque accusantium blanditiis quaerat hic facere id architecto officiis. Molestias?</p>
             </div>
           </div>
+        </section>
+        <section>
+            <h2>What Our Company Offers</h2>
+            <div id="container-features">	
+                <div class="company-details">     
+                    <h3>Diversity</h3>
+                    <p class="information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus minus, quibusdam optio iure dolorum aliquid, nobis maiores quod, nesciunt pariatur. Facere animi doloremque quaerat totam debitis adipisci officiis? Natus.</p>           
+                </div>
+                
+                <div class="company-image">
+                     <img src="https://hewlett.org/wp-content/uploads/2018/01/hands-2082x1171.jpg" alt="Diversity">
+                </div>
+            </div>
+            <div id="container-features">	
+                <div class="company-details">     
+                    <h3>Feature 2</h3>
+                    <p class="information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus minus, quibusdam optio iure dolorum aliquid, nobis maiores quod, nesciunt pariatur. Facere animi doloremque quaerat totam debitis adipisci officiis? Natus.</p>           
+                </div>
+                
+                <div class="company-image">
+                     <img src="https://assets-losspreventionmedia-com.s3.us-east-2.amazonaws.com/2021/04/diversity-inclusion-concept-1280x720-1.jpg" alt="Feature 2">
+                </div>
+            </div>
+            
+            
+            
+            
         </section>
     </main>
     <footer>
