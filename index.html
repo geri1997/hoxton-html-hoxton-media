@@ -42,6 +42,33 @@
             font-weight: 500;
             margin-top: 30px;
         }
+        .container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+
         footer{
             
             padding: 30px;
@@ -113,6 +140,17 @@
         <p>Just sig up, describe your content, and our smart machine learning service will generate content and deliver it to every social media platform.</p>
         <p>Subscirbe now, get your first month free and savings of up to <b>50%</b>!</p>
         <button id="subscribe">SUBSCRIBE NOW</button>
+        <div class="container">
+            <img src="" alt="Avatar1" style="width:90px">
+            <p><span>John SMith.</span> CEO at Cheddars.</p>
+            <p>Your company saved us from a disaster.</p>
+          </div>
+          
+          <div class="container">
+            <img src="" alt="Avatar2" style="width:90px">
+            <p><span >Jane Doe.</span> CEO at CompanyX.</p>
+            <p>No one is better than this Company.</p>
+          </div>
     </main>
     <footer>
         <h4>Footer Navigation</h4>
